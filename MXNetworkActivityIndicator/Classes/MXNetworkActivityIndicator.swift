@@ -1,7 +1,4 @@
-import UIKit
-import Foundation
-
-class MXNetworkActivityIndicator {
+public class MXNetworkActivityIndicator {
     
     static let shared = MXNetworkActivityIndicator();
     
@@ -11,12 +8,12 @@ class MXNetworkActivityIndicator {
         self.count = 0
     }
     
-    func show() {
+    public func show() {
         self.count += 1
         UIApplication.shared.isNetworkActivityIndicatorVisible = self.count > 0
     }
  
-    func hide(forceHide: Bool = false) {
+    public func hide(forceHide: Bool = false) {
         if self.count == 0 { return }
         self.count -= forceHide ? self.count : 1
         UIApplication.shared.isNetworkActivityIndicatorVisible = self.count == 0
