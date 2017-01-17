@@ -1,0 +1,6 @@
+framework module MXNetworkActivityIndicator {
+  umbrella header "MXNetworkActivityIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}

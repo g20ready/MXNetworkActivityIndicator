@@ -1,0 +1,16 @@
+PODS:
+  - MXNetworkActivityIndicator (0.1.0)
+
+DEPENDENCIES:
+  - MXNetworkActivityIndicator (from `../`)
+
+EXTERNAL SOURCES:
+  MXNetworkActivityIndicator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MXNetworkActivityIndicator: 1e4ac5af8ac34f13f0d0c7483b31ea73480e4a15
+
+PODFILE CHECKSUM: 0b395648788cce0abe6ccb82db2faecaba2667f6
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,6 @@
+framework module Pods_MXNetworkActivityIndicator_Tests {
+  umbrella header "Pods-MXNetworkActivityIndicator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

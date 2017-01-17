@@ -1,0 +1,22 @@
+{
+  "name": "MXNetworkActivityIndicator",
+  "version": "0.1.0",
+  "summary": "A short description of MXNetworkActivityIndicator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MXNetworkActivityIndicator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Max": "max@geotagaeroview.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MXNetworkActivityIndicator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MXNetworkActivityIndicator/Classes/**/*"
+}
