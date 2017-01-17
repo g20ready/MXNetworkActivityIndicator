@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MXNetworkActivityIndicator_Tests' do
+  pod 'MXNetworkActivityIndicator', :path => '../'
+  
+  
+end
