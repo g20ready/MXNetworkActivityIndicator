@@ -1,6 +1,6 @@
 public class MXNetworkActivityIndicator {
     
-    static let shared = MXNetworkActivityIndicator();
+    public static let shared = MXNetworkActivityIndicator();
     
     private var count: Int
     
@@ -18,5 +18,4 @@ public class MXNetworkActivityIndicator {
         self.count -= forceHide ? self.count : 1
         UIApplication.shared.isNetworkActivityIndicatorVisible = self.count == 0
     }
-    
 }
